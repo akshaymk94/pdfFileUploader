@@ -1,0 +1,45 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+#PDFviewer {
+    width: 100%;
+    height: 100%;
+}
+
+.canvasEditor {
+    border: solid 1px red;
+    width: 100%;
+    height: 100%;
+}
+
+.somethingHere {
+    height: 50%;
+    width: 100%;
+    margin: 0;
+    background: #fc3;
+}
+
+#fileRenderer {
+    display: inline-block;
+    position: fixed;
+    width: 49%;
+    height: 100%;
+    float: left;
+    border: solid 1px black;
+    margin: 0 2px 0 0 ;
+    box-sizing: border-box;
+}
+
+.viewTextEditor {
+    display: inline-block;
+    position: fixed;
+    width: 49%;
+    height: 100%;
+    float: right;
+    border: solid 1px blue;
+    margin-left: 50%;
+    box-sizing: border-box;
+    overflow: scroll;
+}
